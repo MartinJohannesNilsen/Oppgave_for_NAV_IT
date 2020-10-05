@@ -4,9 +4,12 @@ $textColor: black;
 $font: "Open Sans", sans-serif, "";
 $buttonColor: rgb(2, 42, 101);
 
+body{
+	background-color: $backgroundColor;
+}
+
 .App {
 	padding: 10% 20%;
-	background-color: $backgroundColor;
 	display: grid;
 	gap: 30px;
 
