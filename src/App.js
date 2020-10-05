@@ -15,7 +15,7 @@ import {
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 function App() {
-	//This is the last updated G-vaule as of 01.05.2020
+	//This is the last updated G-value as of 01.05.2020
 	const G = 101351;
 	//Need the current year for asking about the last 3 years
 	const thisYear = new Date().getFullYear();
@@ -25,6 +25,14 @@ function App() {
 		Basis: 0,
 		Amount: 0,
 	});
+
+	React.useEffect(() => {
+		window.addEventListener("keydown", (event) => {
+			if (event.key === "Enter") {
+				handleClickOnCalculateButton();
+			}
+		});
+	}, [inputSalaryState]);
 
 	//This method inserts a value with the corresponding year to the dictionary. It needs to be a number, if not we insert "" and checks for this later
 	const handleChange = (year) => (event) => {
@@ -104,7 +112,7 @@ function App() {
 					<h3>Din årsinntekt i {thisYear - 1}:</h3>
 					<FormControl fullWidth variant="outlined">
 						<OutlinedInput
-							value={inputSalaryState[thisYear - 1] || ""}
+							value={inputSalaryState[thisYear - 1] || null}
 							onChange={handleChange(thisYear - 1)}
 							endAdornment={<InputAdornment position="end">NOK</InputAdornment>}
 							aria-label="annual salary 1 year ago"
@@ -120,7 +128,7 @@ function App() {
 					<h3>Din årsinntekt i {thisYear - 2}:</h3>
 					<FormControl fullWidth variant="outlined">
 						<OutlinedInput
-							value={inputSalaryState[thisYear - 2] || ""}
+							value={inputSalaryState[thisYear - 2] || null}
 							onChange={handleChange(thisYear - 2)}
 							endAdornment={<InputAdornment position="end">NOK</InputAdornment>}
 							aria-label="annual salary 2 years ago "
@@ -136,7 +144,7 @@ function App() {
 					<h3>Din årsinntekt i {thisYear - 3}:</h3>
 					<FormControl fullWidth variant="outlined">
 						<OutlinedInput
-							value={inputSalaryState[thisYear - 3] || ""}
+							value={inputSalaryState[thisYear - 3] || null}
 							onChange={handleChange(thisYear - 3)}
 							endAdornment={<InputAdornment position="end">NOK</InputAdornment>}
 							aria-label="annual salary 3 years ago"
