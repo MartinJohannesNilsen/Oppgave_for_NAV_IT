@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dagpengerkalkulatorNAV/static/css/main.c992cd0e.chunk.css",
+    "main.css": "/dagpengerkalkulatorNAV/static/css/main.88f9fbe1.chunk.css",
     "main.js": "/dagpengerkalkulatorNAV/static/js/main.b7a56640.chunk.js",
     "main.js.map": "/dagpengerkalkulatorNAV/static/js/main.b7a56640.chunk.js.map",
     "runtime-main.js": "/dagpengerkalkulatorNAV/static/js/runtime-main.2b7d746e.js",
@@ -8,15 +8,15 @@
     "static/js/2.9423a1bb.chunk.js": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js",
     "static/js/2.9423a1bb.chunk.js.map": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js.map",
     "index.html": "/dagpengerkalkulatorNAV/index.html",
-    "precache-manifest.c25ab0fa4b9a51709f8e6e74e563b25e.js": "/dagpengerkalkulatorNAV/precache-manifest.c25ab0fa4b9a51709f8e6e74e563b25e.js",
+    "precache-manifest.ad885d3b2c586f0bb370cda2081912f7.js": "/dagpengerkalkulatorNAV/precache-manifest.ad885d3b2c586f0bb370cda2081912f7.js",
     "service-worker.js": "/dagpengerkalkulatorNAV/service-worker.js",
-    "static/css/main.c992cd0e.chunk.css.map": "/dagpengerkalkulatorNAV/static/css/main.c992cd0e.chunk.css.map",
+    "static/css/main.88f9fbe1.chunk.css.map": "/dagpengerkalkulatorNAV/static/css/main.88f9fbe1.chunk.css.map",
     "static/js/2.9423a1bb.chunk.js.LICENSE.txt": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2b7d746e.js",
     "static/js/2.9423a1bb.chunk.js",
-    "static/css/main.c992cd0e.chunk.css",
+    "static/css/main.88f9fbe1.chunk.css",
     "static/js/main.b7a56640.chunk.js"
   ]
 }
