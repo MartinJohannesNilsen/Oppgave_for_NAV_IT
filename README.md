@@ -1,29 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Oppgave for NAV IT
 
-## Available Scripts
+Dette er min besvarelse på en kodeoppgave gitt av NAV IT i forbindelse opptak for sommerjobb 2021. Ettersom oppgaven var av relativt enkel art, og kun hadde bestått av én klasse med main ved bruk av Java, valgte jeg å skrive den i Javascript for å få inn litt UI. Ville også vise at jeg mestrer React, et populært rammeverk for systemutvikling på web. Det stod oppført i oppgaven at det ikke var krav om UI, men jeg ønsket vise mine styrker, og jeg synes dette gjorde oppgaven mer morsom å jobbe med.
 
-In the project directory, you can run:
+De tre filene jeg selv har skrevet med unntak av package.json (kun endret), er App.js, App.scss og App.test.js. Selve metoden for utregning av dagpenger ligger i App.js kalt "calculateUnemploymentBenefits". Denne blir kjørt av enten å trykke på enter eller den dedikerte knappen på siden. Viser så dagpengesatsen og dagpengegrunnlag dersom riktig input er gitt.
 
-### `npm start`
+I tillegg har jeg laget 4 tester som sjekker:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Om input er riktig, alle tre boksene skal inneholde gyldige tall.
+- Om eksempelet gitt i oppgavebeskrivelsen gir ut riktig dagpengesats.
+- Om den blir begrenset til 6G dersom lønnen er høyere enn dette.
+- Om den velger den høyeste verdien av gjennomsnittslønn og siste kalenderår.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### Kjøring av koden
 
-### `npm test`
+For å kjøre programmet kan man laste det ned, og kjøre `npm start`. For dette må man også kjøre `npm install` først ettersom node_modules ikke ligger på GitHub. Så kan man åpne [http://localhost:3000](http://localhost:3000) og teste applikasjonen her. Jeg har også valgt å deploye den på [GitHub Pages](https://martinnilsen99.github.io/dagpengerkalkulatorNAV/), både for å vise at jeg mestrer deploying, men også for å gjøre det enklere å teste for dere. Det er også litt kult å kunne teste den på mobil.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+For å kjøre testene kan man kjøre `npm test`. Kan være man må trykke på `a` for å kjøre alle testene.
