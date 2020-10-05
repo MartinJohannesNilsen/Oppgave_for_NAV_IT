@@ -160,7 +160,7 @@ function App() {
 				</Box>
 
 				<p className="ErrorMessage" id="missingInputWarning">
-					Du må fylle inn alle feltene!
+					Du må fylle inn et gyldig tall i alle feltene!
 				</p>
 
 				<Box className="CalculateButtonContainer">

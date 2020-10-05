@@ -23,7 +23,7 @@ describe("Tests on the calculator", () => {
 		act(() => {
 			render(<App />, container);
 		});
-		expect(screen.getByText("Du må fylle inn alle feltene!"));
+		expect(screen.getByText(/Du må fylle inn et gyldig tall i alle feltene!/i));
 	});
 
 	it("Salary of 500k, 450k and 400k to return 1924kr", function () {
