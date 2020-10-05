@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dagpengerkalkulatorNAV/static/css/main.88f9fbe1.chunk.css",
-    "main.js": "/dagpengerkalkulatorNAV/static/js/main.b7a56640.chunk.js",
-    "main.js.map": "/dagpengerkalkulatorNAV/static/js/main.b7a56640.chunk.js.map",
+    "main.js": "/dagpengerkalkulatorNAV/static/js/main.3729ace7.chunk.js",
+    "main.js.map": "/dagpengerkalkulatorNAV/static/js/main.3729ace7.chunk.js.map",
     "runtime-main.js": "/dagpengerkalkulatorNAV/static/js/runtime-main.2b7d746e.js",
     "runtime-main.js.map": "/dagpengerkalkulatorNAV/static/js/runtime-main.2b7d746e.js.map",
     "static/js/2.9423a1bb.chunk.js": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js",
     "static/js/2.9423a1bb.chunk.js.map": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js.map",
     "index.html": "/dagpengerkalkulatorNAV/index.html",
-    "precache-manifest.ad885d3b2c586f0bb370cda2081912f7.js": "/dagpengerkalkulatorNAV/precache-manifest.ad885d3b2c586f0bb370cda2081912f7.js",
+    "precache-manifest.2ba68004bd9ad9be1b2c4a635eed3797.js": "/dagpengerkalkulatorNAV/precache-manifest.2ba68004bd9ad9be1b2c4a635eed3797.js",
     "service-worker.js": "/dagpengerkalkulatorNAV/service-worker.js",
     "static/css/main.88f9fbe1.chunk.css.map": "/dagpengerkalkulatorNAV/static/css/main.88f9fbe1.chunk.css.map",
     "static/js/2.9423a1bb.chunk.js.LICENSE.txt": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2b7d746e.js",
     "static/js/2.9423a1bb.chunk.js",
     "static/css/main.88f9fbe1.chunk.css",
-    "static/js/main.b7a56640.chunk.js"
+    "static/js/main.3729ace7.chunk.js"
   ]
 }
