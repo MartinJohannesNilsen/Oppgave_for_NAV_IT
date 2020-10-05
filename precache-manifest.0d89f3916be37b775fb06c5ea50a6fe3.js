@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10f12d5da9ffa8ff9e1384622b07c5da",
+    "revision": "a7704fcf81328b8b7246aadb9eda96e5",
     "url": "/dagpengerkalkulatorNAV/index.html"
   },
   {
-    "revision": "1bf87904e1fd2f138467",
+    "revision": "af1153f7fbb47ff5d591",
     "url": "/dagpengerkalkulatorNAV/static/css/main.c992cd0e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dagpengerkalkulatorNAV/static/js/2.9423a1bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bf87904e1fd2f138467",
-    "url": "/dagpengerkalkulatorNAV/static/js/main.d30d66e3.chunk.js"
+    "revision": "af1153f7fbb47ff5d591",
+    "url": "/dagpengerkalkulatorNAV/static/js/main.75b81686.chunk.js"
   },
   {
     "revision": "9dbbeddc362573f74b80",
