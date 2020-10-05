@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dagpengerkalkulatorNAV/precache-manifest.0d89f3916be37b775fb06c5ea50a6fe3.js"
+  "/dagpengerkalkulatorNAV/precache-manifest.c25ab0fa4b9a51709f8e6e74e563b25e.js"
 );
 
 self.addEventListener('message', (event) => {
