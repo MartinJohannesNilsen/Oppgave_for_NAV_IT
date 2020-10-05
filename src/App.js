@@ -20,10 +20,7 @@ function App() {
 	//Need the current year for asking about the last 3 years
 	const thisYear = new Date().getFullYear();
 	//States
-	const [inputSalaryState, setInputSalaryState] = useState({
-		2017: 400000,
-		2019: 500000,
-	});
+	const [inputSalaryState, setInputSalaryState] = useState({});
 	const [unemploymentBenefits, setUnemploymentBenefits] = useState({
 		Basis: 0,
 		Amount: 0,
@@ -107,37 +104,49 @@ function App() {
 					<h3>Din årsinntekt i {thisYear - 1}:</h3>
 					<FormControl fullWidth variant="outlined">
 						<OutlinedInput
-							value={inputSalaryState[thisYear - 1] || ''}
+							value={inputSalaryState[thisYear - 1] || ""}
 							onChange={handleChange(thisYear - 1)}
 							endAdornment={<InputAdornment position="end">NOK</InputAdornment>}
 							aria-label="annual salary 1 year ago"
 							type="number"
 							inputProps={{ "data-testid": "inputField1YearAgo" }}
-							onClick={() => document.getElementById("ResultContainer").classList.add("Hidden")}
+							onClick={() =>
+								document
+									.getElementById("ResultContainer")
+									.classList.add("Hidden")
+							}
 						/>
 					</FormControl>
 					<h3>Din årsinntekt i {thisYear - 2}:</h3>
 					<FormControl fullWidth variant="outlined">
 						<OutlinedInput
-							value={inputSalaryState[thisYear - 2] || ''}
+							value={inputSalaryState[thisYear - 2] || ""}
 							onChange={handleChange(thisYear - 2)}
 							endAdornment={<InputAdornment position="end">NOK</InputAdornment>}
 							aria-label="annual salary 2 years ago "
 							type="number"
 							inputProps={{ "data-testid": "inputField2YearsAgo" }}
-							onClick={() => document.getElementById("ResultContainer").classList.add("Hidden")}
+							onClick={() =>
+								document
+									.getElementById("ResultContainer")
+									.classList.add("Hidden")
+							}
 						/>
 					</FormControl>
 					<h3>Din årsinntekt i {thisYear - 3}:</h3>
 					<FormControl fullWidth variant="outlined">
 						<OutlinedInput
-							value={inputSalaryState[thisYear - 3] || ''}
+							value={inputSalaryState[thisYear - 3] || ""}
 							onChange={handleChange(thisYear - 3)}
 							endAdornment={<InputAdornment position="end">NOK</InputAdornment>}
 							aria-label="annual salary 3 years ago"
 							type="number"
 							inputProps={{ "data-testid": "inputField3YearsAgo" }}
-							onClick={() => document.getElementById("ResultContainer").classList.add("Hidden")}
+							onClick={() =>
+								document
+									.getElementById("ResultContainer")
+									.classList.add("Hidden")
+							}
 						/>
 					</FormControl>
 				</Box>
